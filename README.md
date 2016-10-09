@@ -20,3 +20,5 @@ The files sourced by run_analysis.R accomplish the following tasks:
 * [2_select_mean_std.R](code/2_select_mean_std.R) This file serves objective 2 of the project. It selects the columns that represent a measure of mean / standard deviation
 * [3_descriptive_names.R](code/3_descriptive_names.R) Code in the file serves objective 3 of the project; assigns activity labels to the numbers.
 * [5_summarize_data.R]() This file serves objective 5 of the project. It summarizes each of the selected column to its mean, grouped by person (subject) and activity
+
+###### Aditya Tandon
