@@ -13,7 +13,7 @@ then before sourcing run_analysis.R:
 
 Final tidy data is written into [summarized_mean_dev.txt](summarized_mean_dev.txt), in the working directory
 
-The resulting file has also been renamed and uploaded as [tidy_data.csv](tidy_data.csv) in the repository.
+An equivalent csv file is also generated and uploaded as [tidy_data.csv](tidy_data.csv) in the repository.
 
 The files sourced by run_analysis.R accomplish the following tasks:
 
