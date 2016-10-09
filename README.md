@@ -1,16 +1,16 @@
 # Getting and Cleaning Data - Coursera Data Science Course 3, Week 4 Proj Submission
 Code for the project is present in the [code](code) folder.
-To execute the code, either clone the repository, or save all the code (.R) files in your common working directory
+To execute the code, run_analysis.R and the ==code== directory from the repository should be in your working directory.
 Then source the run_analysis.R file. It downloads the data to the working directory.
 Further it unzips the archive and does the required analysis by sourcing the other code files.
 
 If you have already downloaded the source data (which as part of course you must have), and want to **save your bandwidth**
 then before sourcing run_analysis.R: 
-* Comment out lines 13 & 14 in the file and save it, 
+* Comment out lines 11 & 12 in the file and save it, 
 * Copy the downloaded archive to your working directory, and rename it "proj_data.zip"
 * Then execute `source("run_analysis.R")`
 
-Final tidy data is written into summarized_mean_dev.csv, in the working directory
+Final tidy data is written into summarized_mean_dev.txt, in the working directory
 
 The resulting file has be renamed and uploaded as [tidy_data.csv](tidy_data.csv) in the repository
 

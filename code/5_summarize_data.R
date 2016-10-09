@@ -11,4 +11,4 @@ tidy_data <- mean_std_data %>%
     summarize_each(rep("mean", ncol(mean_std_data) - 2)) %>%
     print()
 
-write.csv(tidy_data, "proj_data/summarized_mean_dev.csv", row.names = F)
+write.table(tidy_data, "summarized_mean_dev.txt", row.names = F, quote = F)
